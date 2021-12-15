@@ -6,10 +6,17 @@ using System.Threading.Tasks;
 
 namespace ChristiansoeWebApplication.Controllers
 {
-    public class PackageController : Controller
+    public class PackageController : Controller // '/Package'
     {
-        public IActionResult Index()
+        public IActionResult Index() // Root
         {
+            return View();
+        }
+
+        public IActionResult getAll() // '/Package/getAll
+        {
+            
+
             return View();
         }
     }
