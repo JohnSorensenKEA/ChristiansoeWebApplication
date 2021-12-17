@@ -13,11 +13,17 @@ namespace ChristiansoeWebApplication.Controllers
             return View();
         }
 
-        public IActionResult getAll() // '/Package/getAll
+        public string GetAll() // '/Package/getAll
         {
-            
+            //Persistence.PersistenceCreator.createDatabase();
 
-            return View();
+
+            return "Completed";
+        }
+
+        public string GetTest()
+        {
+            return "Testing Testing";
         }
     }
 }

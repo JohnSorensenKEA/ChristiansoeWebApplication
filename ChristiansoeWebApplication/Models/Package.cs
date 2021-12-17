@@ -7,5 +7,6 @@ namespace ChristiansoeWebApplication.Models
 {
     public class Package
     {
+        
     }
 }
